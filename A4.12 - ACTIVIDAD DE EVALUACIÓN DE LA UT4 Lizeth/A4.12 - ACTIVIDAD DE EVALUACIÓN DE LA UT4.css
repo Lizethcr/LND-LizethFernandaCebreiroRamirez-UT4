@@ -1,0 +1,99 @@
+body{
+    font-family: "Abel"
+}
+
+#comienzo{
+    background: orange;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-weight: bold;
+    font-size: 2.0rem;
+    color: grey;
+}
+
+.navbar{
+    padding: 0 0 4.0rem;
+}
+
+.nav-item{
+    padding-right: 18px;
+    font-size: 1.2rem;
+}
+
+h3{
+    font-size: 2.0rem;
+    text-align: center;
+    font-weight: bold;
+    color:slategrey;
+}
+
+.features{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#sección{
+    color:orange;
+    margin-left: 40%;
+    margin-bottom: 4%;
+    font-size: 6rem;
+}
+
+#sección:hover{
+    color:gray;
+}
+
+.texto{
+    font-size: 1.5rem;
+}
+
+.link{
+    font-size: 1.0rem;
+    text-align: center;
+}
+
+#vendido{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+h5{
+    font-size: 2.0rem;
+    
+}
+
+.titulo{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.boton{
+    border: none;
+    background-color: orange;
+    font-size: 2.0rem;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.pantalla{
+    width: 30%;
+    margin: 10%;
+    margin-left: 35%;
+    
+}
+
+.raton{
+    width: 30%;
+    margin: 10%;
+    margin-left: 35%;
+
+}
+
+.placa{
+    width: 30%;
+    margin: 10%;
+    margin-left: 35%;
+}
