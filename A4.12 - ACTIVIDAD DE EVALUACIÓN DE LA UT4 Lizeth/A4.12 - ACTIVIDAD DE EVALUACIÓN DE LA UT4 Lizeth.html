@@ -9,7 +9,7 @@
     <link rel="icon" type=image/png href="PcComponentes.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Edu+NSW+ACT+Foundation&family=Raleway:ital@0;1&family=Vollkorn&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/c0d0a60655.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://kit.fontawesome.com/c0d0a60655.css" crossorigin="anonymous">
     <link rel="stylesheet" href="A4.12 - ACTIVIDAD DE EVALUACIÓN DE LA UT4.css">
@@ -21,15 +21,13 @@
             <div id="navbar">
                 <nav class="navbar navbar-expand-md navbar-light bg-light border-primary">
                     <div class="container-fluid">
-                        <!--Imagén/Logotipo de la página-->
-                        <img src="PcComponentes.png" alt="Logo" width="100" height="30">
-                        <!--Nombre de la página-->
-                        <a href="https://www.pccomponentes.com/" class="navbar-brand" id="entrada" style="font-family: Abel;">PC COMPONENTES</a>
+                        <!--Nombre de la página e magén/Logotipo de la página-->
+                        <a href="https://www.pccomponentes.com/" class="navbar-brand" id="entrada" style="font-family: Abel;"><img src="PcComponentes.png" alt="Logo" width="100" height="30">PC COMPONENTES</a>
                         <!--Creación de la barra de navegación-->
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#pccomponentes">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-                        <!--Controlador de formulario-->
+                        <!--Controlador de formulario/buscador-->
                         <form class="d-flex" role="search">
                             <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
                             <button class="btn btn-outline-success" type="submit">Buscar</button>
@@ -38,19 +36,26 @@
                         <div class="collapse navbar-collapse" id="pccomponentes">
                             <ul class="navbar-nav ms-3">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="https://www.pccomponentes.com/login">MI CUENTA</a>
+                                    <a class="nav-link" href="https://www.pccomponentes.com/login"><i class="fa-solid fa-user-tie"></i>MI CUENTA</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="https://www.pccomponentes.com/ofertas-especiales">OFERTAS TOP</a>
+                                    <a class="nav-link" href="https://www.pccomponentes.com/ofertas-especiales"><i class="fa-solid fa-chart-line"></i>OFERTAS TOP</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="https://www.pccomponentes.com/trending">EN TENDENCIA</a>
+                                    <a class="nav-link" href="https://www.pccomponentes.com/trending"><i class="fa-solid fa-arrows-up-to-line"></i>EN TENDENCIA</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="https://www.pccomponentes.com/formacion">FORMACIÓN</a>
+                                    <a class="nav-link" href="https://www.pccomponentes.com/formacion"><i class="fa-solid fa-glasses"></i>FORMACIÓN</a>
                                 </li>
                             </ul>
                         </div>
+                        <button type="button" class="btn btn-primary position-relative bandeja">
+                          Bandeja de entrada
+                          <span class="position-absolute top-0 start-90 translate-middle badge rounded-pill bg-danger">
+                            99+
+                            <span class="visually-hidden">unread messages</span>
+                          </span>
+                        </button>
                     </div>
                 </nav>
             </div>
@@ -104,24 +109,25 @@
             </div>
         </div>
         <br>
-          <!--Opciones de la página una nueva sección-->
+          <!--Opciones de la página-->
         <section id="features">
             <div class="row">
                 <div class="col-lg-4 col-md-12 col-sm-12 features">
-                    <i class="fa-solid fa-truck" id="sección"></i>
+                    <i class="fa-solid fa-percent" id="sección"></i>
                     <h3>Promociones</h3>
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12 features">
-                    <i class="fa-solid fa-group-arrows-rotate" id="sección"></i>
+                    <i class="fa-solid fa-tags" id="sección"></i>
                     <h3>Reacondicionados</h3>
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12 features">
-                    <i class="fa-solid fa-shop-lock" id="sección"></i>
+                    <i class="fa-solid fa-exclamation" id="sección"></i>
                     <h3>Liquidación</h3>
                 </div>
             </div>
         </section>
         <!--Creación del Carrusel-->
+        <h2 class="tienda">Lo más vendido en la tienda</h2>
         <div id="carouselExampleDark" class="carousel carousel-dark slide">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -170,10 +176,65 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
+          <br>
+          <br>
+          <!--Creación de la sección del listado de productos destacados.-->
+          <div class="card-group">
+            <div class="card">
+              <img src="ordenador.png" class="card-img-top" alt="Artículo1">
+              <div class="card-body">
+                <h5 class="card-title">¿Sabes lo que son los móviles y Smartphone reacondicionados?</h5>
+                <p class="card-text">Cuando en PcComponentes veas o escuches hablar de un Smartphone reacondicionado, o de cualquier tipo de producto es 
+                  porque se trata de un móvil que, siendo nuevo, procede de una devolución, un showroom o una prueba.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-body-secondary">Last updated 3 hours ago</small>
+              </div>
+            </div>
+            <div class="card">
+              <img src="recondicionado.png" class="card-img-top" alt="Artículo2">
+              <div class="card-body">
+                <h5 class="card-title">Ventajas de comprar un portátil reacondicionado</h5>
+                <p class="card-text">Una de las características principales de los portátiles reacondicionados es que presentan un precio notablemente inferior 
+                  al de un equipo nuevo. Lo que recomendamos a cada uno de los usuarios es navegar a través del catálogo de la tienda y comparar 
+                  entre los equipos nuevos y los reacondicionados, ya que puedes encontrar lo que buscas a un precio menor.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-body-secondary">Last updated 20 mins ago</small>
+              </div>
+            </div>
+            <div class="card">
+              <img src="movil.png" class="card-img-top" alt="Artículo3">
+              <div class="card-body">
+                <h5 class="card-title">9 razones para comprar un iPhone reacondicionado</h5>
+                <p class="card-text">Lo primero que tienes que pensar es que un iPhone reacondicionado no es lo mismo que un iPhone de segunda mano. En realidad,
+                  cuando uno compra un iPhone de segunda mano a un propietario anterior, no está seguro del estado en el que está el móvil, 
+                  o de si el smartphone está en un estado aceptable. En cambio, cuando compras un iPhone reacondicionado en PcComponentes sabes 
+                  que el móvil que estás comprando funciona correctamente y que no te dará problemas..</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-body-secondary">Last updated 1 mins ago</small>
+              </div>
+            </div>
+          </div>
+          <br>
+          <!--Creacion de la páginación-->
+          <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-end">
+              <li class="page-item disabled">
+                <a class="page-link">Anterior</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item"><a class="page-link" href="#">4</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">Siguiente</a>
+              </li>
+            </ul>
+          </nav>
 
-
-
-
+          
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>

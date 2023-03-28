@@ -1,20 +1,20 @@
 body{
-    font-family: "Abel"
-}
-
-#comienzo{
-    background: orange;
+    font-family: 'Alkatra', cursive;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Vollkorn', serif;
 }
 
 .navbar-brand{
     font-family: "Ubuntu";
     font-weight: bold;
-    font-size: 2.0rem;
+    font-size: 1.0rem;
     color: grey;
 }
 
-.navbar{
+#navbar{
     padding: 0 0 4.0rem;
+    background-color: white;
 }
 
 .nav-item{
@@ -96,4 +96,19 @@ h5{
     width: 30%;
     margin: 10%;
     margin-left: 35%;
+}
+
+.articulo{
+    font-size: 1.5rem;
+}
+
+.listado{
+    text-align: center;
+    font-size: 2.0rem;
+}
+
+.tienda{
+    text-align: center;
+    font-size: 2.0rem;
+    margin-bottom: -160px;
 }
