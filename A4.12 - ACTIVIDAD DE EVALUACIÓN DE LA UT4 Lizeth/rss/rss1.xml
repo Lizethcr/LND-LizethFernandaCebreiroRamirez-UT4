@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+    <title>Todo para tu setup</title>
+    <link>https://lizethcr.github.io/LND-LizethFernandaCebreiroRamirez-UT4/</link>
+    <description>Catálogo completo de productos gaming de PcComponentes, te será de ayuda en todas y cada una de tus próximas partidas. Porque el gaming es una afición, estilo de vida y 
+    profesión. Y para que puedas enfrentarte a todo NPC o jugador que se te ponga por delante, aquí tienes los mejores productos gaming al alcance de la mano</description>
+    <category>Setup PcComponentes</category>
+    <item>
+        <title>Las Mejores ofertas en tu nuevo equipo</title>
+        <link>https://lizethcr.github.io/LND-LizethFernandaCebreiroRamirez-UT4/</link>
+        <description>Descubre las mejores ofertas en ordenadores portátiles y accesorios de marcas TOP con descuentos de hasta el 40%. Elige tu portátil ideal de primeras marcas al mejor precio y 
+    recibe tu nuevo equipo en un tiempo récord</description>
+        <category>Ofertas nuevo equipo</category>
+        <enclosure url="https://es.web.img3.acsta.net/img/44/48/4448ea18912e3548da076d9f5f1b689b.jpg" type="image/jpeg" length="566558"/>
+    </item>
+    <item>
+        <title>Los reacondicionados de PcComponentes</title>
+        <link>https://lizethcr.github.io/LND-LizethFernandaCebreiroRamirez-UT4/</link>
+        <description>Replay es la nueva denominación de PcComponentes para nuestros productos reacondicionados, dispositivos revisados y testados por nuestro equipo de técnicos especializados 
+    para garantizar su funcionamiento óptimo y poder así otorgarles una segunda vida.</description>
+        <category>Reacondicionados PcComponentes</category>
+        <enclosure url="https://es.web.img2.acsta.net/img/13/75/1375fcd24e03179476495aab2d938c3e.jpg" type="image/jpeg" length="509503"/>
+    </item>
+        <item>
+        <title>!Sólo 48h de precio mínimo histórico!</title>
+        <link>https://lizethcr.github.io/LND-LizethFernandaCebreiroRamirez-UT4/</link>
+        <description>¡Precios exclusivos para los más rápidos!</description>
+        <category>48 precio mímino</category>
+        <enclosure url="https://es.web.img3.acsta.net/img/37/41/374185a40165d48e2c47d733fd6d358f.jpg" type="image/jpeg" length="562035"/>
+    </item>
+</channel>
+</rss>
